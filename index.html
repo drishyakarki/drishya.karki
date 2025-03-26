@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <!-- =====BOX ICONS===== -->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+        <title>Portfolio</title>
+    </head>
+    <body>
+        <!--===== HEADER =====-->
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="#" class="nav__logo">Drishya</a>
+                </div>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+            <!--===== HOME =====-->
+            <section class="home bd-grid" id="home">
+                <div class="home__data">
+                    <h1 class="home__title">Hi,<br>I am <span class="home__title-color">Drishya</span><br> ML Enthusiast</h1>
+
+                    <a href="#" class="button">Contact</a>
+                </div>
+
+                <div class="home__social">
+                    <a href="https://www.linkedin.com/in/drishya-karki/" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
+                    <a href="https://github.com/drishyakarki" class="home__social-icon"><i class='bx bxl-github' ></i></a>
+                    <a href="mailto:karkidrishya1@gmail.com" class="home__social-icon"><i class='bx bx-envelope' ></i></a>
+                    <a href="https://x.com/KarkiDrishya" class="home__social-icon"><i class='bx bxl-twitter'></i></a>
+                </div>
+
+                <div class="home__img">
+                    <svg class="home__blob" viewBox="0 0 479 467" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <mask id="mask0" mask-type="alpha">
+                            <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
+                        </mask>
+                        <g mask="url(#mask0)">
+                            <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
+                            <image class="home__blob-img" x="50" y="60" width="400" height="500" href="assets/img/laptop.png"/>
+                        </g>
+                    </svg>
+                </div>
+            </section>
+
+            <!--===== ABOUT =====-->
+            <section class="about section " id="about">
+                <h2 class="section-title">About</h2>
+
+                <div class="about__container bd-grid">
+                    <div class="about__img">
+                        <img src="assets/img/photo-zoo.jpeg" alt="">
+                    </div>
+                    
+                    <div>
+                        <h2 class="about__subtitle">I am Drishya Karki</h2>
+                        <p class="about__text">a passionate Machine Learning Engineer and Researcher with a strong focus on deep learning, computer vision, and video action recognition. My journey began with hands-on industry experience, where I quickly transitioned from an intern to a full-time AI & ML Engineer. Currently, I am deeply involved in research on action spotting in soccer videos, exploring innovative spatio-temporal modeling techniques.</p>           
+                    </div>                                   
+                </div>
+            </section>
+
+            <!--===== WORK =====-->
+            <section class="work section" id="work">
+                <h2 class="section-title">Projects</h2>
+
+                <div class="work__container bd-grid">
+                    <div>
+                        <p class="work__text">
+                            I have worked on several cutting-edge machine learning and computer vision projects. While some projects are confidential due to company policies, here are selected projects with demo videos or code repositories.
+                        </p>
+                        
+                        <div class="work__container bd-grid">
+                            <!-- Project 1 -->
+                            <div class="work__card">
+                                <div class="work__flip-container">
+                                    <div class="work__img">
+                                        <img src="assets/img/ai_scout.png" alt="AI Scouting Platform">
+                                    </div>
+                                    <div class="work__back" style="background-image: url('assets/img/ai_scout.png'); background-size: cover; background-position: center;">
+                                        <h3>AI Scouting Platform</h3>
+                                        <p>An end to end platform capable of identifying players, positions, ball trajectory, jersey number, events as well as detailed analysis of the given soccer video.</p>
+                                        <a href="https://drive.google.com/file/d/1H-mgx46p77Ln-MpL6zeUJ_e_6Rs9YkKW/view?usp=sharing" target="_blank">View Demo</a>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- Project 2 -->
+                            <div class="work__card">
+                                <div class="work__flip-container">
+                                    <div class="work__img">
+                                        <img src="assets/img/temporal.png" alt="Action Spotting">
+                                    </div>
+                                    <div class="work__back" style="background-image: url('assets/img/temporal.png'); background-size: cover; background-position: center;">
+                                        <h3>Action Spotting using Spatio-Temporal Data</h3>
+                                        <p>Novel research methodology for identifying actions/events using the xy-coordinates of players and ball.</p>
+                                        <a href="https://drive.google.com/file/d/186jnvnFjqNbp0fEbDX7xWaMYuuZWzUIg/view?usp=sharing" target="_blank">View Demo</a>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- Project 3 -->
+                            <div class="work__card">
+                                <div class="work__flip-container">
+                                    <div class="work__img">
+                                        <img src="assets/img/tongue.png" alt="TongueTechies">
+                                    </div>
+                                    <div class="work__back" style="background-image: url('assets/img/tongue.png'); background-size: cover; background-position: center;">
+                                        <h3>ToungueTechies</h3>
+                                        <p>A Flutter-based mobile app leveraging deep learning for bilingual translation and learning.</p>
+                                        <a href="https://github.com/orgs/TongueTechies/repositories" target="_blank">View Code</a>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- Project 4 -->
+                            <div class="work__card">
+                                <div class="work__flip-container">
+                                    <div class="work__img">
+                                        <img src="assets/img/mamba.jpeg" alt="7amba">
+                                    </div>
+                                    <div class="work__back" style="background-image: url('assets/img/mamba.jpeg'); background-size: cover; background-position: center;">
+                                        <h3>7amba</h3>
+                                        <p>Finetuning mamba-based pretrained language model and data preprocessing script.</p>
+                                        <a href="https://github.com/drishyakarki/7amba" target="_blank">View Code</a>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- Project 5 -->
+                            <div class="work__card">
+                                <div class="work__flip-container">
+                                    <div class="work__img">
+                                        <img src="assets/img/plant.jpeg" alt="GreenScan">
+                                    </div>
+                                    <div class="work__back" style="background-image: url('assets/img/plant.jpeg'); background-size: cover; background-position: center;">
+                                        <h3>GreenScan</h3>
+                                        <p>Developed a custom CNN model and fine-tuned ResNet-18 for plant disease detection</p>
+                                        <a href="https://github.com/drishyakarki/greenScan-PlantDiseaseDetector" target="_blank">View Code</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!--===== FOOTER =====-->
+        <footer class="footer">
+            <p class="footer__title">Drishya</p>
+            <div class="footer__social">
+                <a href="https://www.facebook.com/drishya.karki.79" class="footer__icon"><i class='bx bxl-facebook' ></i></a>
+                <a href="https://www.instagram.com/drishya_karki/" class="footer__icon"><i class='bx bxl-instagram' ></i></a>
+                <a href="https://x.com/KarkiDrishya" class="footer__icon"><i class='bx bxl-twitter' ></i></a>
+            </div>
+            <p class="footer__copy">&#169; Bedimcode. All rigths reserved</p>
+        </footer>
+
+        <!--===== SCROLL REVEAL =====-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--===== MAIN JS =====-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
